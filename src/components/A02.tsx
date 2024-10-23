@@ -6,9 +6,5 @@ import React from 'react';
 //44
 //55
 //66
-<<<<<<< HEAD
-//77
-=======
 //77
 //88
->>>>>>> develop
