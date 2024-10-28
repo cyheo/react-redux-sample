@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState, AppDispatch } from './store';
 import { increment, decrement, incrementByAmount } from './store';
+import Counter from './components/Counter';
 
 function App() {
   // Redux 상태 가져오기
@@ -15,6 +16,7 @@ function App() {
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
       <button onClick={() => dispatch(incrementByAmount(5))}>Increment by 5</button>
+      <Counter></Counter>
     </div>
   );
 }
